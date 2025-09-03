@@ -63,28 +63,10 @@ JWT Authentication
 
 bcrypt.js (password hashing)
 
-📂 Project Structure
-ecommerce-app/
-│── backend/
-│   ├── models/        # Mongoose schemas
-│   ├── routes/        # Express routes (products, auth, orders, payments)
-│   ├── controllers/   # Business logic
-│   ├── config/        # DB connection, Stripe keys, etc.
-│   └── server.js      # Express entry point
-│
-│── frontend/
-│   ├── src/
-│   │   ├── components/   # React components
-│   │   ├── pages/        # User & Admin pages
-│   │   ├── context/      # Cart & Auth context
-│   │   └── App.js
-│   └── package.json
-│
-└── README.md
 
 ⚡ Installation & Setup
 1. Clone the Repository
-git clone https://github.com/your-username/mern-ecommerce.git
+git clone https://github.com/snehasingh022/e-commerce.git
 cd mern-ecommerce
 
 2. Backend Setup
@@ -112,27 +94,7 @@ cd frontend
 npm install
 npm start
 
-💳 Stripe Test Cards
 
-Use these test cards while in development mode:
-
-Success: 4242 4242 4242 4242 (any future date, any CVC)
-
-Authentication Required: 4000 0027 6000 3184
-
-Declined: 4000 0000 0000 9995
-
-📸 Screenshots (Optional)
-
-Add UI and admin panel screenshots here
-
-✅ Future Improvements
-
-User order history & tracking
-
-Wishlist functionality
-
-Admin order management
 
 Email notifications
 
